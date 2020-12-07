@@ -58,7 +58,7 @@ if clientID != -1:
             else:
                 print(res)
 
-        sleep(1)
+        sleep(3)
         print ("______________________________________________")
 
     # Before closing the connection to V-REP, make sure that the last command sent out had time to arrive. You can guarantee this with (for example):
