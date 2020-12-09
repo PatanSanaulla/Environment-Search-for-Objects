@@ -2,9 +2,9 @@ import shutil, os
 
 
 def movefiles():
-     for i in range(1, 3460, 15):
+     for i in range(0, 750, 5):
           try:
-               shutil.move("../Dataset_1/700_5/image"+str(i)+".jpg", "../evironmentDataset/Test/")
+               shutil.move("./image"+str(i)+".jpg", "../videoData/")
           except:
                continue
           print(i)
@@ -21,4 +21,4 @@ def renameAllFiles():
           os.rename(src, dst)
 
 
-renameAllFiles()
+movefiles()
